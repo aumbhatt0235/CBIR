@@ -1,3 +1,8 @@
+"""
+                Machine Learning Project Phase 2
+            Done By: Aum Ashokbhai Bhatt (2019A7PS0235U)
+"""
+
 import cv2
 import numpy as np
 
@@ -32,8 +37,7 @@ def LCH(image1, image2, nbins, ndiv) :
     w1, h1, _ = img1.shape
     w2, h2, _ = img1.shape
 
-    """ m1, n1 = math.floor(w1/ndiv), math.floor(h1/ndiv)
-    m2, n2 = math.floor(w2/ndiv), math.floor(h2/ndiv) """
+
 
     # Resizing the images to same dimensions based on the number of divsions to be made.
     m1_rest, n1_rest = w1 % ndiv, h1 % ndiv
@@ -75,3 +79,9 @@ LCH('images/apple2.jpg', 'images/apple2.jpg', [32, 32, 32], 2)
 LCH('images/apple3.jpg', 'images/apple2.jpg', [32, 32, 32], 2)
 LCH('images/apple4.jpg', 'images/apple2.jpg', [32, 32, 32], 2)
 print()
+
+
+"""
+                Machine Learning Project Phase 2
+            Done By: Aum Ashokbhai Bhatt (2019A7PS0235U)
+"""
